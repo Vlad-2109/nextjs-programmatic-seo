@@ -10,6 +10,9 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "Restaurant Finder",
   description: "Find the best restaurants near you",
+  verification: {
+    google: "Az5VrqI-GXGzciAHW9y6ChUvi2gTEWTQquAVD37L_9A",
+  },
 };
 
 export default function RootLayout({
